@@ -31,7 +31,6 @@ var cam = {
     },
     applyFilter: function(effect) {
         cam.el.className = effect;
-        // cam.el.style.webkitFilter = 'effect(100)';
     }
 };
 
