@@ -1,0 +1,56 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>web cam toy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>Web Cam in Dat Ass</h1>
+            <ul class="pull-left nav nav-pills">
+                <li><a id="pause" href="#">Pause</a></li>
+                <li><a id="play" href="#">Play</a></li>
+            </ul>
+            
+            <div class="pull-right">
+                <label for="style">Style:</label>
+                <select id="style">
+                    <option value="normal">Normal</option>
+                    <option value="sepia">Sepia</option>
+                    <option value="grayscale">Black and White</option>
+                    <option value="saturate">Saturate</option>
+                    <option value="hue-rotate">Hue Rotate (180deg)</option>
+                    <option value="invert">Invert</option>
+                    <option value="brightness">Brightness</option>
+                    <option value="contrast">Contrast</option>
+                </select>
+            </div>
+            <video id="webcam" autoplay>It's an old browser, ya dingus.</video>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+
+</body>
+</html>
